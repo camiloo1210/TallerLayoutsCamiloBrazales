@@ -3,13 +3,13 @@
     x:Class="TallerLayoutsCamiloBrazales.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:TallerLayoutsCamiloBrazales"
+    xmlns:local="clr-namespace:TallerLayoutsCamiloBrazales.Views"
     Shell.FlyoutBehavior="Disabled"
     Title="TallerLayoutsCamiloBrazales">
 
     <ShellContent
         Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
+        ContentTemplate="{DataTemplate local:GridColor}"
         Route="MainPage" />
 
 </Shell>
